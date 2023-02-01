@@ -1,0 +1,62 @@
+body {
+background-color: rgb(67, 65, 70);
+color: white
+
+}
+
+#main {
+    
+    display: inline-block;
+    
+}
+
+.dotted-box {
+    
+    width: 500px;
+    height: 350px;
+    border: dotted;
+    
+}
+
+.main-box {
+    
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+    
+
+}
+
+.box-wrapper {
+    
+    display: inline-block;
+    
+    
+
+}
+
+.rounded-box {
+    position: absolute;
+    background-color: rgb(184, 45, 184);
+    margin-top: 125px;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 430px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.purple {
+    position: absolute;
+    color:  rgb(184, 45, 184);
+   
+}
+
+.text { margin: 20px;
+    
+}
+
+#section {
+    
+}

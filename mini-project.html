@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+      
+<main id="main">
+        <h1>CSS Snippet Cheat Sheet</h1>  
+        <h4>Every have trouble recalling your favorite CSS Code? Give it a permanent home and add it to this page!
+            <br> Selectany snippet below and it'll automatically select all of the code for you to copy.
+        </h4>
+    <section id="section">
+        <div class="box-wrapper">
+            <div class="main-box"> <h2> Flex Box Row</h2> 
+            </div>
+            <div class="dotted-box">
+                <p class="purple">Use these three properties to create a Flexbox row layout.</p>
+                <div class="rounded-box">
+                    <p class="text">Row { <br>
+                        <br> display: flex;
+                       <br> flex-direction: row;
+                       <br> flex-wrap: wrap }</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="box-wrapper">
+            <div class="main-box"> <h2>Flex Box Column</h2>
+            </div>
+            <div class="dotted-box">
+                <p class="purple">Use these three properties to create a Flexbox row layout.</p>
+                <div class="rounded-box">
+                    <p class="text"> .column { <br>
+                        <br> display: flex;
+                       <br> flex-direction: column </p>
+                       
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box-wrapper">
+            <div class="main-box"> <h2>CSS Grid Layout</h2>
+            </div>
+            <div class="dotted-box">
+                <p class="purple">Build a 12-column layout using CSS Grid</p>
+                <div class="rounded-box">
+                    <p class="text"> .grid { <br>
+                        <br> display: grid;
+                       <br> width: 100%;
+                       <br> grid-template-columns:
+                       <br>repeat(12, 1fr); 
+                       <br> }
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box-wrapper">
+            <div class="main-box"><h2>Linear Gradient</h2>
+            </div>
+            <div class="dotted-box">
+                <p class="purple">This will create a background linear gradient from top to bottom.</p>
+                <div class="rounded-box">
+                    <p class="text">.linear-graident-background { <br>
+                        <br> background-image: linear-gradient (
+                       <br> rgba(232, 102, 236, 0.3) 0%,
+                       <br> rgba(232, 102, 236, 0.6) 100% }
+                       <br> ); }
+                    </p>
+                </div>
+         </div>
+                
+            </div>
+
+        <div class="box-wrapper">
+            <div class="main-box"> <h2>Box Transition Glow</h2>
+            </div>
+            <div class="dotted-box">
+                <p class="purple">Use transition an box shadows to glow on hober</p>
+                <div class="rounded-box">
+                    <p class="text">.code-card .card-header {
+                       <br> border-radius: 8px;
+                       <br> transition: all 0.5s ease-in-
+                       <br> out; }
+                      <br>  .code-card:hover,
+                      <br>  .code-card: hover .card-header {
+                     <br>   box-shadow: inset Opx Opx 8px
+                       <br> rgba (232, 102, 236, 1), 0 0 15px
+                      <br>  rgba (232, 102, 236, 1);
+                    }</p>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="box-wrapper">
+            <div class="main-box"><h2>Overlay Card With Title</h2>
+            </div>
+            <div class="dotted-box">
+                <p class="purple">Use position properties and negative margins to raise <br> elements higher than their natural starting point.</p>
+                <div class="rounded-box">
+                    <p class="text">.card-header {
+                      <br>  position: relative:
+                       <br> margin-top:-20px:}</p>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+</main>
+	<script src="index.js"></script>
+  </body>
+</html>

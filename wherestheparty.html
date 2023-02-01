@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wheres The Party</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="wherestheparty.css" />
+    <script type="text/javascript" src="wherestheparty.js"></script>
+
+    <link rel="stylesheet" href="utility-styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main class="flex-column center">
+      <!-- <h4 id="h4Title" class="">Wheres The Party?</h4> -->
+      <img src="wherestheparty.png" id="logo">
+      <nav>
+        <ul class="navbar">
+          <li class="navbar__item">Home</li>
+          <li class="navbar__item">Saved Concerts</li>
+        </ul>
+      </nav>
+
+      <form id="userSelection">
+        <div id="genres" class="row">
+          <legend class="col m3">
+            <h5 id="genresHeading">Please select your Genre:</h5>
+          </legend>
+
+          <div class="genreRadios col m9 flex-row justify-content-space-between">
+            <label class="genre_option z-depth-2">
+              <input type="radio" class="with-gap" id="rap" name="genre" required value="Hip-Hop/Rap" />
+              <span>Hip-HopRap</span>
+            </label>
+
+            <label class="genre_option z-depth-2">
+              <input type="radio" class="with-gap" id="rock" name="genre" required value="Rock" />
+              <span>Rock</span>
+            </label>
+
+            <label class="genre_option z-depth-2">
+              <input type="radio" class="with-gap" id="edm" name="genre" required value="Electronic" />
+              <span>EDM</span>
+            </label>
+
+            <label class="genre_option z-depth-2">
+              <input type="radio" class="with-gap" id="jazz" name="genre" required value="Jazz" />
+              <span>Jazz</span>
+            </label>
+
+            <label class="genre_option z-depth-2">
+              <input type="radio" class="with-gap" id="classical" name="genre" required value="Classical" />
+              <span>Classical</span>
+            </label>
+
+            <label class="genre_option z-depth-2">
+              <input type="radio" class="with-gap" id="pop" name="genre" required class="radio" value="Pop" />
+              <span>Pop</span>
+            </label>
+
+            <label class="genre_option z-depth-2">
+              <input type="radio" class="with-gap" id="r&b" name="genre" required class="radio" value="R&B" />
+              <span> RB</span>
+            </label>
+
+            <label class="genre_option z-depth-2">
+              <input type="radio" class="with-gap" id="country" name="genre" required value="Country" />
+              <span>Country</span>
+            </label>
+          </div>
+        </div>
+
+        <div id="location" class="row">
+          <div class="input-container col s12 m3 pull-m9 flex-row">
+            <label><strong>What City Is Your Event?</strong></label>
+            <input type="text" id="city" name="city" required class="white" /> <br />
+            <br />
+            <input id="submitBtn" value="Submit" type="submit" class="btn" readonly />
+          </div>
+        </div>
+      </form>
+
+      <div id="content">
+        <section id="featureResults">
+          <h4 class="center">Trending Concerts In Your City</h4>
+          <div id="results" class="gap-4 padding-3"></div>
+        </section>
+
+        <div id="googlemap"></div>
+
+        <section id="trending">
+          <h5>Trending Events</h5>
+          <aside id="event1"></aside>
+          <aside id="event2"></aside>
+          <aside id="event3"></aside>
+        </section>
+      </div>
+      <div id="searchReults"></div>
+    </main>
+    <footer>2023</footer>
+  </body>
+</html>
+
