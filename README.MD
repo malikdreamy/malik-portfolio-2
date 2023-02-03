@@ -4,6 +4,6 @@ This is a professional portfolio for Malik Tornes. In my portfolio I have an Abo
 Click the Github links below and you will be taken to my portfolio. You can also read through my code by going to my repository at the github link below.
 
 Portfolio: https://malikdreamy.github.io/malik-portfolio-2/
-Github Repository: https://github.com/malikdreamy?tab=repositories
+Github Repository: https://github.com/malikdreamy/malik-portfolio-2
 
 © 2022 Malik Tornes. Confidential and Proprietary. All Rights Reserved.
